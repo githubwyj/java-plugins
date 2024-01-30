@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>group.springframework</groupId>
+        <artifactId>spring-cloud-dependencies-parent</artifactId>
+        <version>2021.0.7</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>cn.mnjblog</groupId>
+    <artifactId>java-plugins-pom</artifactId>
+    <packaging>pom</packaging>
+    <version>${plugins.version}</version>
+    <description>公共版本控制</description>
+    <properties>
+        <plugins.version>1.0.0-SNAPSHOT</plugins.version>
+        <hutool.version>5.8.25</hutool.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <redisson.version>3.18.0</redisson.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-data-27</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
