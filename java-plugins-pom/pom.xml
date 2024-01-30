@@ -30,6 +30,11 @@
                 <artifactId>redisson-spring-data-27</artifactId>
                 <version>${redisson.version}</version>
             </dependency>
+            <dependency>
+                <groupId>cn.mnjblog</groupId>
+                <artifactId>spring-boot-tools</artifactId>
+                <version>${plugins.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

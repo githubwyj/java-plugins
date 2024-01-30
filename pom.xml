@@ -13,8 +13,9 @@
     <description>java-plugins 是在日常中封装的一些组件、spring-boot-starter、工具包等</description>
     <url>https://github.com/githubwyj/java-plugins</url>
     <modules>
-        <module>spring-redisson-queue-starter</module>
         <module>java-plugins-pom</module>
+        <module>spring-boot-tools</module>
+        <module>spring-redisson-queue-starter</module>
     </modules>
 
     <properties>
